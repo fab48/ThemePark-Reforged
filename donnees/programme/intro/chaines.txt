@@ -1,0 +1,37 @@
+# Les chaînes de l'image du programme. Une section [nom] par zone (le manifeste, index.json, en dit
+# l'adresse et la taille), puis une ligne par chaîne, que le programme termine par un octet nul ;
+# une ligne vide est une chaîne vide. \xNN : un octet hors de l'ASCII imprimable ; \\ : la barre
+# oblique inverse. Une chaîne peut raccourcir (la zone est complétée de zéros), pas s'allonger.
+[erreur_6A9B8]
+\x0AError : %s\x0A
+[texte_6A9D4]
+Error Code Does Not Indicate An Error
+Specified Driver Is Not Loaded
+Specified Pointer Is NULL
+Detection System Is Already Initialized
+File Open Failure
+Memory Allocation Failure
+Invalid Driver ID
+Driver Not Found
+Detection System Failed To Find Hardware
+Driver Already Loaded Using Specified Handle
+Invalid Handle
+No Handles Available
+Hardware Already Paused
+Hardware Not Paused
+Data Is Not Valid
+HMI*.386 File Open Failure
+Incorrect Port
+Incorrect IRQ
+Incorrect DMA
+Incorrect DMA/IRQ
+[texte_6ABCB]
+A
+
+
+
+
+
+
+
+upport not loaded\x0D\x0A

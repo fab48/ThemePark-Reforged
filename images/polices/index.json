@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "description": "Les polices du jeu, en planches PNG (un glyphe par code, 16 par rangée) et en tables JSON : voir moteur/hote/polices.js, et le README (« Modder le jeu »). Le programme et MFONT-0 se refont de ces fichiers.",
+ "palette": "images/palettes/MPALETTE.png",
+ "polices": {
+  "petite": {
+   "planche": "images/polices/petite.png",
+   "table": "images/polices/petite.json"
+  },
+  "watcom-8x8": {
+   "planche": "images/polices/watcom-8x8.png",
+   "table": "images/polices/watcom-8x8.json"
+  },
+  "watcom-8x14": {
+   "planche": "images/polices/watcom-8x14.png",
+   "table": "images/polices/watcom-8x14.json"
+  },
+  "interface": {
+   "planche": "images/polices/interface.png",
+   "table": "images/polices/interface.json"
+  },
+  "titres": {
+   "planche": "images/polices/titres.png",
+   "table": "images/polices/titres.json"
+  }
+ },
+ "banques": {
+  "MFONT-0": {
+   "polices": [
+    "interface",
+    "titres"
+   ],
+   "images": 105,
+   "entete": [
+    105,
+    0
+   ],
+   "separateur": [
+    127
+   ],
+   "queue": [
+    127
+   ],
+   "vides": [
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ }
+}

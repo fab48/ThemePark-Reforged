@@ -1,0 +1,88 @@
+﻿Theme Park (Bullfrog, 1994) — le jeu dans le navigateur, sur une réécriture en JavaScript de son moteur
+
+JOUER
+
+  - « Theme Park.cmd » (Windows) ou « theme-park.sh » (macOS, Linux : il faut python3) : le dossier
+    est servi sur http://localhost:8123/ et le navigateur s'ouvre ; fermer la fenêtre du lanceur
+    arrête le jeu. C'est la façon de référence.
+  - Ou un double-clic sur theme-park.html : la page s'ouvre depuis le disque (file://), hors ligne,
+    sans rien lancer. Elle lit alors les assets par leurs « compagnons » (plus bas).
+  - Ou n'importe quel serveur HTTP qui sert ce dossier (python -m http.server, un site...), puis
+    theme-park.html.
+
+Au lancement, le film d'introduction ; une touche ou un clic le passe. Les parties sont gardées par
+le navigateur, pour cette adresse : le double-clic (file://) et la page servie ont chacun les leurs.
+Les boutons « parties : exporter » et « parties : importer » du bas de la page les mettent dans un
+fichier et les en reprennent.
+
+CE QU'IL Y A ICI
+
+  theme-park.html   la page ; moteur/ : le moteur (theme-park.js, et theme-park-es2015.js pour les
+                    navigateurs anciens)
+  images/           banques/ : les planches de sprites (NOM.png) et leurs tables (NOM.json) ;
+                    fonds/ : les écrans pleins (320x200) ; palettes/ : les palettes (16x16 pixels,
+                    les 256 couleurs du jeu) ; polices/ : les polices (une planche et une table
+                    chacune, un glyphe par code de caractère)
+  sons/             bruitages/ (WAV) et musiques/FM/ (MP3) : ce que la page joue ; les morceaux HMP
+                    (et MIDI) et instruments/ (les timbres FM) : ce que le jeu lit ; index.json :
+                    les sons remplacés (plus bas) ; LISEZMOI.txt
+  films/            les films, en MP4
+  animations/       rendu.json : les animations intercalées des attractions (bouton « animations »)
+  donnees/          index.json (l'inventaire), programme/ (les données du programme de 1994),
+                    textes/ (les textes des langues, en JSON, et index.json, la liste des langues
+                    du menu « langue »), parties/ (le parc de
+                    démonstration), tables/ (les fichiers du CD que le jeu lit tels quels)
+
+Les chemins de donnees/index.json sont ceux du dépôt d'origine (assets/) : « images/… », « sons/… »
+et « films/… » sont ici les mêmes ; « donnees/X » est ici donnees/tables/X ; « programme/… »,
+« textes/… » et « parties/… » sont sous donnees/.
+
+MODIFIER LE JEU
+
+  Remplacer un fichier par un autre du même nom, puis :
+    - servi (Theme Park.cmd) : recharger la page (F5) ;
+    - en double-clic : lancer refaire.cmd, puis recharger la page (pour un son ou un film, recharger
+      suffit : la page les lit eux-mêmes, voir plus bas). refaire.cmd refait les
+      compagnons (images/images.js, sons/sons.js, donnees/donnees.js, animations/animations.js), qui
+      portent en base 64 les mêmes fichiers que les dossiers : la page ouverte depuis le disque ne
+      peut pas lire les fichiers eux-mêmes. Il suffit de Windows (PowerShell 5.1).
+
+  Les images. Chaque pixel d'une planche est un numéro de couleur de la palette du jeu, et l'indice
+  255 la transparence. Le plus sûr est de garder l'image en couleurs indexées, avec sa palette. Une
+  image enregistrée en couleurs (RVB, RVBA) est acceptée : chaque couleur est ramenée à la plus
+  proche de la palette du jeu, un pixel transparent (alpha sous 128) à la transparence. La table
+  NOM.json dit où est chaque sprite sur la planche : elle fait foi ; une planche plus petite que ce
+  qu'elle demande est complétée de transparent. Pour changer les couleurs du jeu, c'est la palette
+  qu'on modifie (images/palettes/).
+
+  Les sons. La page joue les fichiers eux-mêmes, servie comme en double-clic : les bruitages
+  (sons/bruitages/SNDS0-2/NOM.wav, la banque que le jeu charge) et les musiques
+  (sons/musiques/FM/NOM.mp3). Pour en changer un, le plus simple est d'écraser le fichier, même nom,
+  même format (un WAV par un WAV de n'importe quelle qualité, 44 100 Hz stéréo compris ; un MP3 par
+  un MP3) : recharger la page suffit, sans refaire.cmd. Dans un autre format (ogg, mp3 pour un
+  bruitage, wav, flac...) : poser le fichier à côté de l'original, du même nom (CASH.ogg près de
+  CASH.wav, RIDE4.ogg près de RIDE4.mp3), puis lancer refaire.cmd, qui l'inscrit dans le manifeste
+  sons/index.json (la page ne peut pas lister un dossier). Le jeu n'en voit rien : chaque son garde
+  pour lui la durée de l'original ; un bruitage remplacé joue jusqu'au bout de son fichier, sauf si
+  le jeu l'arrête, et une musique repart du début quand le jeu la relance. Le détail, et le
+  manifeste écrit à la main : sons/LISEZMOI.txt.
+
+  Les films : un MP4 de même nom (films/attraction-04.mp4...). Un film absent n'est pas montré.
+
+  Les polices (images/polices/) : une case par code de caractère, 16 par rangée ; la table
+  <police>.json dit la place, la largeur et la hauteur de chaque glyphe. Redessiner un glyphe le
+  change dans le jeu ; dessiner dans une case vide en fait un nouveau (0x90 pour « É »). Le README du
+  dépôt, « Les polices », dit le détail.
+
+  Une langue (donnees/textes/) : copier LANG4.json (le français) sous un autre nom, le traduire en
+  gardant le nombre de textes de chaque groupe, et l'ajouter à donnees/textes/index.json avec un nom
+  (celui du menu « langue ») et un emplacement libre, 5 à 9 (ou 0 à 4 pour remplacer une langue du
+  CD). Les signes sans glyphe dans les polices s'affichent vides : les dessiner (voir ci-dessus). Le
+  README du dépôt, « Traduire le jeu », dit le détail.
+
+  Ce qui ne va pas est dit dans la console du navigateur (F12), et le jeu continue avec ce qu'il a
+  quand il le peut ; sans musiques, textes ou tables, il ne démarre pas, et le message nomme le
+  fichier.
+
+Les fichiers du jeu (images, sons, musiques, films, textes, données) sont tirés du CD de Theme Park
+(Bullfrog, 1994) : ils restent la propriété de leurs auteurs.

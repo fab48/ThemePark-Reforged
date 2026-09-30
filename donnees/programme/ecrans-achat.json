@@ -1,0 +1,260 @@
+{
+  "F_INCONNU": [63,0],
+  "COMPTE_A_REBOURS": 255,
+  "ETAT_FENETRE": 3,
+  "COULEURS": "0xB67BE",
+  "LIGNE_CHOISIE": 0,
+  "LIGNE_VISEE": -1,
+  "FENETRE": 0,
+  "PAGE_DES_PENSEES": 0,
+  "TEINTES": [64,67,65,34,32,37],
+  "COMMANDES": [
+    {"u16_0":231,"u16_2":232,"touche":80,"sorte":8},
+    {"u16_0":229,"u16_2":230,"touche":72,"sorte":8},
+    {"u16_0":213,"u16_2":214,"touche":20,"sorte":2},
+    {"u16_0":185,"u16_2":186,"touche":255,"sorte":2},
+    {"u16_0":187,"u16_2":188,"touche":1,"sorte":2},
+    {"u16_0":195,"u16_2":196,"touche":59,"sorte":2},
+    {"u16_0":191,"u16_2":192,"touche":61,"sorte":2},
+    {"u16_0":189,"u16_2":190,"touche":60,"sorte":2},
+    {"u16_0":193,"u16_2":194,"touche":31,"sorte":2},
+    {"u16_0":197,"u16_2":198,"touche":32,"sorte":2},
+    {"u16_0":221,"u16_2":222,"touche":255,"sorte":2},
+    {"u16_0":235,"u16_2":236,"touche":23,"sorte":2},
+    {"u16_0":233,"u16_2":234,"touche":31,"sorte":2},
+    {"u16_0":255,"u16_2":256,"touche":50,"sorte":2},
+    {"u16_0":199,"u16_2":200,"touche":255,"sorte":2},
+    {"u16_0":205,"u16_2":206,"touche":71,"sorte":2},
+    {"u16_0":207,"u16_2":208,"touche":75,"sorte":8},
+    {"u16_0":209,"u16_2":210,"touche":77,"sorte":8},
+    {"u16_0":211,"u16_2":212,"touche":79,"sorte":2},
+    {"u16_0":223,"u16_2":224,"touche":80,"sorte":8},
+    {"u16_0":225,"u16_2":226,"touche":72,"sorte":8},
+    {"u16_0":223,"u16_2":224,"touche":75,"sorte":2},
+    {"u16_0":225,"u16_2":226,"touche":77,"sorte":2},
+    {"u16_0":0,"u16_2":0,"touche":255,"sorte":2},
+    {"u16_0":185,"u16_2":186,"touche":255,"sorte":2},
+    {"u16_0":237,"u16_2":238,"touche":255,"sorte":2},
+    {"u16_0":201,"u16_2":202,"touche":255,"sorte":2},
+    {"u16_0":239,"u16_2":240,"touche":255,"sorte":2},
+    {"u16_0":223,"u16_2":224,"touche":75,"sorte":2},
+    {"u16_0":225,"u16_2":226,"touche":77,"sorte":2},
+    {"u16_0":223,"u16_2":224,"touche":75,"sorte":2},
+    {"u16_0":225,"u16_2":226,"touche":77,"sorte":2},
+    {"u16_0":241,"u16_2":242,"touche":255,"sorte":2},
+    {"u16_0":223,"u16_2":224,"touche":51,"sorte":2},
+    {"u16_0":225,"u16_2":226,"touche":52,"sorte":2},
+    {"u16_0":247,"u16_2":248,"touche":255,"sorte":2},
+    {"u16_0":249,"u16_2":250,"touche":255,"sorte":2},
+    {"u16_0":251,"u16_2":252,"touche":49,"sorte":2},
+    {"u16_0":253,"u16_2":254,"touche":25,"sorte":2},
+    {"u16_0":257,"u16_2":258,"touche":25,"sorte":2},
+    {"u16_0":259,"u16_2":260,"touche":255,"sorte":2}
+  ],
+  "TABLE_DES_FENETRES": [
+    {
+      "morceaux": [129,128,152,130,253,0,0,0,0,0],
+      "ecran": 56,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [129,128,152,131,132,253,0,0,0,0],
+      "ecran": 54,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x360C5"
+    },
+    {
+      "morceaux": [129,128,152,131,133,253,0,0,0,0],
+      "ecran": 58,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x360C5"
+    },
+    {
+      "morceaux": [129,128,152,131,134,253,0,0,0,0],
+      "ecran": 60,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x360C5"
+    },
+    {
+      "morceaux": [129,128,152,131,135,253,0,0,0,0],
+      "ecran": 62,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x360C5"
+    },
+    {
+      "morceaux": [129,136,253,0,0,0,0,0,0,0],
+      "ecran": 64,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [154,161,137,253,0,0,0,0,0,0],
+      "ecran": 66,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [154,152,138,140,253,0,0,0,0,0],
+      "ecran": 28,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [154,152,138,142,253,0,0,0,0,0],
+      "ecran": 28,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [154,152,138,141,253,0,0,0,0,0],
+      "ecran": 28,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [154,152,138,143,253,0,0,0,0,0],
+      "ecran": 28,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [129,139,253,0,0,0,0,0,0,0],
+      "ecran": 18,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x40641"
+    },
+    {
+      "morceaux": [154,152,144,253,0,0,0,0,0,0],
+      "ecran": 22,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x36A2B"
+    },
+    {
+      "morceaux": [154,152,145,253,0,0,0,0,0,0],
+      "ecran": 20,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [129,146,147,253,0,0,0,0,0,0],
+      "ecran": 32,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x3671D"
+    },
+    {
+      "morceaux": [129,146,148,253,0,0,0,0,0,0],
+      "ecran": 34,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x3671D"
+    },
+    {
+      "morceaux": [129,146,149,253,0,0,0,0,0,0],
+      "ecran": 30,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x3671D"
+    },
+    {
+      "morceaux": [154,152,150,253,0,0,0,0,0,0],
+      "ecran": 35,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [129,152,151,253,0,0,0,0,0,0],
+      "ecran": 72,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [129,153,253,0,0,0,0,0,0,0],
+      "ecran": 8,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x36BFC"
+    },
+    {
+      "morceaux": [129,128,152,131,155,253,0,0,0,0],
+      "ecran": 58,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x360C5"
+    },
+    {
+      "morceaux": [154,152,156,253,0,0,0,0,0,0],
+      "ecran": 96,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [158,157,253,0,0,0,0,0,0,0],
+      "ecran": 0,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 0,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [158,159,253,0,0,0,0,0,0,0],
+      "ecran": 0,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 0,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [158,160,253,0,0,0,0,0,0,0],
+      "ecran": 0,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 0,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [158,157,253,0,0,0,0,0,0,0],
+      "ecran": 0,
+      "palette": "0xD3B8C",
+      "poserLaPalette": 0,
+      "routine": "0x0"
+    },
+    {
+      "morceaux": [253,0,0,0,0,0,0,0,0,0],
+      "ecran": 65535,
+      "palette": "0x0",
+      "poserLaPalette": 1,
+      "routine": "0x0"
+    }
+  ],
+  "PENSEES_GAUCHE": [
+    24, 2, 6, 0, 0, 25, 2, 7, 0, 0, 26, 2, 8, 0, 0, 27,
+    2, 9, 0, 0, 28, 2, 10, 0, 0, 29, 2, 11, 0, 0, 110, 2,
+    28, 0, 2, 119, 2, 37, 0, 2, 30, 2, 12, 0, 5, 39, 2, 13,
+    0, 5, 40, 2, 14, 0, 5, 41, 2, 15, 0, 5, 42, 2, 16, 0,
+    5, 43, 2, 17, 0, 5, 44, 2, 18, 0, 5, 45, 2, 19, 0, 5,
+    0, 0, 0, 0, 0
+  ],
+  "PENSEES_DROITE": [
+    46, 2, 20, 0, 1, 47, 2, 21, 0, 1, 48, 2, 22, 0, 1, 49,
+    2, 23, 0, 1, 50, 2, 24, 0, 1, 51, 2, 25, 0, 1, 52, 2,
+    26, 0, 1, 114, 2, 32, 0, 4, 115, 2, 33, 0, 4, 116, 2, 34,
+    0, 4, 117, 2, 35, 0, 4, 118, 2, 36, 0, 4, 111, 2, 29, 0,
+    3, 112, 2, 30, 0, 3, 113, 2, 31, 0, 3, 0, 0, 0, 0, 0
+  ]
+}

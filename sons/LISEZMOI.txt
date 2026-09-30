@@ -1,0 +1,32 @@
+Les sons de Theme Park
+
+  bruitages/BANQUE/NOM.wav   les bruitages, tels qu'ils sont sur le CD (SNDS0-2 : la banque du jeu en
+                             16 bits, celle qu'il charge ; SNDS0-0 et -1 : la meme en 8 bits ; SNDS1 :
+                             l'introduction)
+  musiques/FM/NOM.mp3        les musiques, telles que la puce FM les jouait (moteur/node/musiques.mjs)
+  musiques/FM/NOM.hmp, .mid  les morceaux tels que le jeu les lit (HMP), et en MIDI standard ; MT32/ et
+                             GM/ : les deux autres versions du CD
+  instruments/               les timbres de la puce FM (INST.BNK, DRUM.BNK)
+  index.json                 le manifeste des sons remplaces (fait par refaire.cmd, voir plus bas)
+
+La page joue les WAV et les MP3 eux-memes : le moteur ne lui dit que ce que le jeu demande (tel
+bruitage, a tel volume ; tel morceau, a tel volume et tel tempo). Les HMP et les timbres servent au
+jeu, qui les lit toujours (sa musique avance, sans etre entendue, et dit quand un morceau finit).
+
+REMPLACER UN SON
+
+  - Le plus simple : ecraser le fichier, meme nom, meme format (un WAV par un WAV, un MP3 par un
+    MP3). Toute frequence, mono ou stereo : un bruitage en 44 100 Hz stereo, une musique retravaillee.
+    Rien d'autre a faire, la page servie comme en double-clic : recharger la page.
+  - Dans un autre format (ogg, mp3 pour un bruitage, wav, flac...) : poser le fichier a cote de
+    l'original, du meme nom (bruitages/SNDS0-2/CASH.ogg, musiques/FM/RIDE4.ogg), puis lancer
+    refaire.cmd, qui l'inscrit dans index.json (la page ne peut pas lister un dossier).
+  - index.json peut aussi s'ecrire a la main : {"bruitages": {"SNDS0-2/CASH": "mes-sons/caisse.ogg"},
+    "musiques": {"RIDE4": "mes-sons/theme.ogg", "5": "..."}} ; les chemins sont relatifs a sons/, une
+    musique se designe par son nom ou son numero dans sa banque (donnees/index.json, « musiques »).
+    refaire.cmd garde ces lignes tant que le fichier existe.
+
+Le jeu n'en voit rien : pour lui, chaque son garde la duree de l'original. Un bruitage remplace joue
+jusqu'a la fin de son fichier, sauf si le jeu l'arrete ; une musique repart du debut quand le jeu la
+relance (la musique du parc boucle ainsi). Le bouton « sons remplaces » de l'onglet Reglages
+(debogage) rend les sons d'origine, sauf ceux qu'on a ecrases.

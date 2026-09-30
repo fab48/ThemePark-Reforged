@@ -1,0 +1,32 @@
+{
+ "version": 1,
+ "description": "Les langues du jeu : voir moteur/hote/langues.js, et le README (« Modder le jeu », « Traduire »). L'ordre est celui du menu de la page ; « emplacement » : le chiffre de l'option -l du jeu (0 à 9), le n de LANGn-0.DAT.",
+ "codage": "cp437",
+ "langues": [
+  {
+   "nom": "français",
+   "fichier": "textes/LANG4.json",
+   "emplacement": 4
+  },
+  {
+   "nom": "anglais",
+   "fichier": "textes/LANG0.json",
+   "emplacement": 0
+  },
+  {
+   "nom": "allemand",
+   "fichier": "textes/LANG1.json",
+   "emplacement": 1
+  },
+  {
+   "nom": "italien",
+   "fichier": "textes/LANG2.json",
+   "emplacement": 2
+  },
+  {
+   "nom": "espagnol",
+   "fichier": "textes/LANG3.json",
+   "emplacement": 3
+  }
+ ]
+}

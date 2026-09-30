@@ -1,0 +1,494 @@
+# Les chaînes de l'image du programme. Une section [nom] par zone (le manifeste, index.json, en dit
+# l'adresse et la taille), puis une ligne par chaîne, que le programme termine par un octet nul ;
+# une ligne vide est une chaîne vide. \xNN : un octet hors de l'ASCII imprimable ; \\ : la barre
+# oblique inverse. Une chaîne peut raccourcir (la zone est complétée de zéros), pas s'allonger.
+[console]
+con
+[texte_B0004]
+failed to allocate lowres %d screen\x0A
+[texte_B0029]
+failed to allocate memory for language text \x0A
+[texte_B0057]
+\x0AMouse Driver Not Found Or Not Enough Memory\x0AYou MUST have a  Mouse Driver Installed\x0ATo Run THEME PARK\x0A\x0A
+[RECORD_GAM]
+RECORD.GAM
+[texte_B00CB]
+intro.exe:
+[texte_B00D6]
+%s%s
+[texte_B00DC]
+%s   
+[texte_B00E2]
+%ssave/%s.gy
+[FORMAT_ENSEIGNE]
+%s %d.%d  
+[FORMAT_NOMBRE]
+%d
+[texte_B0100]
+U0
+[texte_B0103]
+G1
+[texte_B0106]
+I2
+[texte_B0109]
+S3
+[texte_B010C]
+F4
+[texte_B010F]
+P5
+[CHEMIN_PARTIE_EN_COURS]
+%ssave/%s.gy
+[CHEMIN_DEMO]
+%ssave/DEMO.GY
+[CHEMIN_EMPLACEMENT]
+%ssave/%s.g%d
+[CHEMIN_DE_LA_FICHE]
+%ssave/%s.GD
+[F_NOMBRE]
+%d
+[texte_B015B]
+%s 
+[F_NOM_ET_DECIMAL]
+%s %d.%d
+[F_CHAINE]
+%s
+[F_POUR_CENT]
+%d%%
+[F_A]
+%d AT %d
+[F_SUR]
+%d/%d
+[F_ENTRE_PARENTHESES]
+%d(%d)
+[F_DEUX_NOMBRES]
+%s %d %d
+[F_NOM_ET_NOMBRE]
+%s %d
+[F_DEUX_NOMS]
+%s - %s
+[F_POURCENTAGE]
+%s: %d.%d%%
+[FORMAT_TEXTE]
+%s
+[FORMAT_POURCENT]
+%d.%d%%
+[texte_B01B8]
+%s%d
+[texte_B01BD]
+netbios
+[texte_B01C7]
+adding %s\x0A
+[texte_B01D2]
+Success [PLAYER-%d]
+[FORMAT_PLACE]
+%02d
+[FORMAT_NOMBRE_B01ED]
+%03d
+[FORMAT_COURS]
+%5d
+[FORMAT_MILLIONS]
+%dM
+[FORMAT_MILLIERS]
+%dK
+[FORMAT_UNITES]
+%d
+[FORMAT_DATE]
+%d %s
+[FORMAT_ARTICLE]
+%s @ %d   
+[texte_B0219]
+ESC
+[texte_B0231]
+BSPC
+[texte_B0236]
+TAB
+[texte_B023A]
+Q
+[texte_B023C]
+W
+[texte_B023E]
+E
+[texte_B0240]
+R
+[texte_B0242]
+T
+[texte_B0244]
+Y
+[texte_B0246]
+U
+[texte_B0248]
+I
+[texte_B024A]
+O
+[texte_B024C]
+P
+[texte_B024E]
+ENTER
+[texte_B0254]
+CTRL
+[texte_B0259]
+A
+[texte_B025B]
+S
+[texte_B025D]
+D
+[texte_B025F]
+F
+[texte_B0261]
+G
+[texte_B0263]
+H
+[texte_B0265]
+J
+[texte_B0267]
+K
+[texte_B0269]
+L
+[texte_B026B]
+Z
+[texte_B026D]
+X
+[texte_B026F]
+C
+[texte_B0271]
+V
+[texte_B0273]
+B
+[texte_B0275]
+N
+[texte_B0277]
+M
+[texte_B027B]
+SPACE
+[texte_B0281]
+F1
+[texte_B0284]
+F2
+[texte_B0287]
+F3
+[texte_B028A]
+F4
+[texte_B028D]
+F5
+[texte_B0290]
+F6
+[texte_B0293]
+F7
+[texte_B0296]
+F8
+[texte_B0299]
+F9
+[texte_B029C]
+F10
+[texte_B02A0]
+HOME
+[texte_B02A5]
+UP
+[texte_B02A8]
+PG UP
+[texte_B02AE]
+LEFT
+[texte_B02B3]
+RIGHT
+[texte_B02B9]
+END
+[texte_B02BD]
+DOWN
+[texte_B02C2]
+PG DOWN
+[texte_B02CA]
+INS
+[texte_B02CE]
+DEL
+[FORMAT_TEXTE_B02D2]
+%s
+[FORMAT_SAUVEGARDE]
+%ssave/%s.g%d
+[FORMAT_NOMBRE_B02E8]
+%d
+[FORMAT_CHAINE]
+%s
+[texte_B02F0]
+%s %s: %d
+[texte_B02FA]
+%s %s%s
+[FORMAT_TEXTE_B0302]
+%s
+[texte_B0305]
+%d.%0.2d%%
+[FORMAT_NOMBRE_B0310]
+%d
+[texte_B0313]
+%d.%0.2d
+[texte_B031C]
+%s , 
+[F_NOM_ET_NOMBRE_B0324]
+%s:%d
+[F_TEXTE]
+%s
+[F_NOMBRE_B032D]
+%d
+[texte_B0330]
+%s%03d
+[texte_B0338]
+data/busted.dat
+[texte_B0348]
+data/buspal.dat
+[texte_B0358]
+data/busted.anm
+[texte_B0368]
+data/takover.dat
+[texte_B0379]
+data/takpal.dat
+[texte_B0389]
+data/takover.anm
+[texte_B039C]
+ERROR: Allocation %s.\x0A
+[texte_B03B3]
+Press return to continue\x0A
+[texte_B03CD]
+ERROR: File %s.\x0A
+[texte_B03E2]
+sndsetup.inf
+[texte_B03EF]
+r
+[texte_B03F1]
+Warning - No sound drivers defined. Run the 'Setup' program.\x0A
+[texte_B042F]
+none
+[texte_B0434]
+%s = %s %x %d %d
+[texte_B0445]
+%s = %s %x
+[texte_B0450]
+BF_MUSIC
+[texte_B0459]
+%s %x
+[texte_B045F]
+ADLIB
+[texte_B0465]
+SBLAST
+[texte_B046C]
+SBPRO
+[texte_B0472]
+ADLIBG
+[texte_B0479]
+SB16FM
+[texte_B0480]
+GRAVIS
+[texte_B0487]
+PASFM
+[texte_B048D]
+COMPATIBLE
+[texte_B0498]
+ROLAND
+[texte_B049F]
+SBAWE32
+[texte_B04A7]
+GENERAL
+[texte_B04AF]
+WBLAST
+[texte_B04BA]
+sndsetup.inf
+[texte_B04C7]
+r
+[texte_B04C9]
+Warning - No sound drivers defined. Run the 'Setup' program.\x0A
+[texte_B0507]
+none
+[texte_B050C]
+%s = %s %x %d %d
+[texte_B051D]
+BF_SOUND
+[texte_B0526]
+%s %x %d %d
+[texte_B0534]
+data\\drum.dig
+[texte_B0542]
+\x0AError : Unable to load drum.dig.\x0A
+[texte_B0565]
+\x0AError : %s
+[texte_B0575]
+\x0AError : %s\x0A
+[nom]
+data\\inst.bnk
+[echec]
+\x0AError : Unable to load inst.bnk.\x0A
+[nom_B05B3]
+data\\drum.bnk
+[echec_B05C1]
+\x0AError : Unable to load drum.bnk.\x0A
+[texte_B05E4]
+\x0AError opening music files\x0A
+[texte_B0600]
+SBLAST
+[texte_B0607]
+SBPRO
+[texte_B060D]
+SB16
+[texte_B0612]
+ADLIBG
+[texte_B0619]
+MICROSOFT8
+[texte_B0624]
+MICROSOFT16
+[texte_B0630]
+PAS8
+[texte_B0635]
+PAS16
+[texte_B063B]
+GRAVIS
+[texte_B0642]
+SOUNDMASTERII
+[texte_B0650]
+COMPATIBLE
+[moinsBien]
+Could not load high quality 8 bit sounds. Trying lower quality 8 bit sounds....\x0A
+[aucun]
+\x0ACould not load any digital samples\x0A
+[erreur]
+\x0AError : %s\x0A
+[FORMAT_NOMBRE_B06E0]
+%d
+[FORMAT_TEXTE_B06E3]
+%s
+[texte_B06E8]
+%d.%s
+[texte_B06EE]
+%d) %s
+[texte_B06F5]
+%s %s
+[FORMAT_TEXTE_B06FB]
+%s
+[texte_B06FE]
+%s %s %s
+[texte_B0707]
+%s %s %s %s %s
+[texte_B0716]
+%s %s, %s %s %s %s
+[texte_B0729]
+%d %s
+[FORMAT_ENTIER]
+%d
+[format]
+%-5d
+[texte_B0737]
+%s=%d
+[texte_B073D]
+%s %d
+[texte_B0744]
+VESA
+[texte_B074C]
+ERROR decompressing %s\x0A
+[pasDeFlottants]
+COMSPEC
+CMD.EXE
+[texte_B0774]
+COMMAND.COM
+[texte_B0780]
+CMD
+[texte_B0784]
+COMMAND
+[texte_B078C]
+\x0AError : %s
+[GABARIT_MUSIQUE_DAT]
+data/music%d-%d.dat
+[GABARIT_MUSIQUE_TAB]
+data/music%d-%d.tab
+[GABARIT_BRUITAGES_DAT]
+data/snds%d-%d.dat
+[GABARIT_BRUITAGES_TAB]
+data/snds%d-%d.tab
+[texte_B07E8]
+Error Code Does Not Indicate An Error
+[texte_B080E]
+Specified Driver Is Not Loaded
+[texte_B082D]
+Specified Pointer Is NULL
+[texte_B0847]
+Detection System Is Already Initialized
+[texte_B086F]
+File Open Failure
+[texte_B0881]
+Memory Allocation Failure
+[texte_B089B]
+Invalid Driver ID
+[texte_B08AD]
+Driver Not Found
+[texte_B08BE]
+Detection System Failed To Find Hardware
+[texte_B08E7]
+Driver Already Loaded Using Specified Handle
+[texte_B0914]
+Invalid Handle
+[texte_B0923]
+No Handles Available
+[texte_B0938]
+Hardware Already Paused
+[texte_B0950]
+Hardware Not Paused
+[texte_B0964]
+Data Is Not Valid
+[texte_B0976]
+HMI*.386 File Open Failure
+[texte_B0991]
+Incorrect Port
+[texte_B09A0]
+Incorrect IRQ
+[texte_B09AE]
+Incorrect DMA
+[texte_B09BC]
+Incorrect DMA/IRQ
+[DET_NOM]
+hmidet.386
+[texte_B09DC]
+.\\
+[texte_B09DF]
+.cmd
+[texte_B09E4]
+.bat
+[texte_B09E9]
+.com
+[texte_B09EE]
+.exe
+[texte_B09F3]
+COMSPEC
+[texte_B09FB]
+CMD
+[texte_B09FF]
+COMMAND
+[NOM_HMIDRV]
+hmidrv.386
+[pasDeFlottants_B0A14]
+Floating-point support not loaded\x0D\x0A
+[texte_B0A38]
+PATH
+[texte_B0A40]
+VGA=
+[texte_B0A4F]
+OAK
+[texte_B0A53]
+TRIDENT
+[texte_B9196]
+PARK
+[MUSIQUE_DAT]
+data/music0-0.dat
+
+
+
+
+
+
+
+
+
+
+|y\x0D
+[texte_BFFDE]
+hmimdrv.386
+[DEBORDEMENT_DE_PILE]
+Stack Overflow!\x0D\x0A
+[texte_C5D78]
+xV
+[texte_C5F80]
+xV
