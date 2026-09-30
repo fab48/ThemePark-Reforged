@@ -1,0 +1,269 @@
+{
+  "PRIX_DES_NIVEAUX": 2000,
+  "table_B78E4": [
+    3000, 3000, 5000, 5000, 6000, 6000, 7000, 7000, 8000, 8000, 9000, 9000, 10000, 10000, 12000, 13000,
+    15000, 17500, 20000
+  ],
+  "CAPACITES": 90,
+  "table_B7932": [110,140,180,220,260,300,340,380,430,480,530,580,640,700,760,820,900,1000,1200],
+  "JOURS_DU_MOIS": [32,35,32,33,32,33,32,32,33,32,33,32],
+  "inconnu_B8B1D": [
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+  ],
+  "RETOUR_DES_ECRANS": 0,
+  "MISE_EN_PAGE_DE_L_ENTREPOT": [
+    {
+      "xDuStock": 362,
+      "yDuStock": 82,
+      "imageDeLaCaisse": 7,
+      "imageDuCamion": 13,
+      "imageDeLaCaisseLivree": 1,
+      "x0": 358,
+      "y0": 54,
+      "x1": 394,
+      "y1": 94,
+      "xDuCamion": 2,
+      "yDuCamion": 370,
+      "u16_16": 2,
+      "xDeLaCorde": 2,
+      "yDeDepart": 32,
+      "yDArrivee": 370,
+      "teinte": [37,44,64],
+      "xDesCaisses": [
+        68, 86, 68, 86, 68, 86, 68, 86, 68, 86, 68, 86, 68, 86, 68, 86,
+        68, 86, 68, 86, 68, 86, 68, 86, 68, 86, 68, 86, 68, 86, 68, 86,
+        68, 86, 68, 86, 68, 86, 68, 86
+      ],
+      "yDesCaisses": [
+        322, 322, 308, 308, 294, 294, 280, 280, 264, 264, 250, 250, 236, 236, 222, 222,
+        204, 204, 190, 190, 176, 176, 162, 162, 144, 144, 130, 130, 116, 116, 102, 102,
+        84, 84, 70, 70, 56, 56, 42, 42
+      ]
+    },
+    {
+      "xDuStock": 404,
+      "yDuStock": 82,
+      "imageDeLaCaisse": 8,
+      "imageDuCamion": 14,
+      "imageDeLaCaisseLivree": 2,
+      "x0": 396,
+      "y0": 54,
+      "x1": 434,
+      "y1": 94,
+      "xDuCamion": 60,
+      "yDuCamion": 370,
+      "u16_16": 60,
+      "xDeLaCorde": 60,
+      "yDeDepart": 32,
+      "yDArrivee": 370,
+      "teinte": [62,62,35],
+      "xDesCaisses": [
+        110, 128, 110, 128, 110, 128, 110, 128, 110, 128, 110, 128, 110, 128, 110, 128,
+        110, 128, 110, 128, 110, 128, 110, 128, 110, 128, 110, 128, 110, 128, 110, 128,
+        110, 128, 110, 128, 110, 128, 110, 128
+      ],
+      "yDesCaisses": [
+        322, 322, 308, 308, 294, 294, 280, 280, 264, 264, 250, 250, 236, 236, 222, 222,
+        204, 204, 190, 190, 176, 176, 162, 162, 144, 144, 130, 130, 116, 116, 102, 102,
+        84, 84, 70, 70, 56, 56, 42, 42
+      ]
+    },
+    {
+      "xDuStock": 444,
+      "yDuStock": 82,
+      "imageDeLaCaisse": 9,
+      "imageDuCamion": 15,
+      "imageDeLaCaisseLivree": 3,
+      "x0": 436,
+      "y0": 54,
+      "x1": 472,
+      "y1": 94,
+      "xDuCamion": 120,
+      "yDuCamion": 370,
+      "u16_16": 120,
+      "xDeLaCorde": 120,
+      "yDeDepart": 32,
+      "yDArrivee": 370,
+      "teinte": [48,37,64],
+      "xDesCaisses": [
+        152, 170, 152, 170, 152, 170, 152, 170, 152, 170, 152, 170, 152, 170, 152, 170,
+        152, 170, 152, 170, 152, 170, 152, 170, 152, 170, 152, 170, 152, 170, 152, 170,
+        152, 170, 152, 170, 152, 170, 152, 170
+      ],
+      "yDesCaisses": [
+        322, 322, 308, 308, 294, 294, 280, 280, 264, 264, 250, 250, 236, 236, 222, 222,
+        204, 204, 190, 190, 176, 176, 162, 162, 144, 144, 130, 130, 116, 116, 102, 102,
+        84, 84, 70, 70, 56, 56, 42, 42
+      ]
+    },
+    {
+      "xDuStock": 488,
+      "yDuStock": 82,
+      "imageDeLaCaisse": 10,
+      "imageDuCamion": 16,
+      "imageDeLaCaisseLivree": 4,
+      "x0": 474,
+      "y0": 54,
+      "x1": 512,
+      "y1": 94,
+      "xDuCamion": 178,
+      "yDuCamion": 370,
+      "u16_16": 178,
+      "xDeLaCorde": 178,
+      "yDeDepart": 32,
+      "yDArrivee": 370,
+      "teinte": [62,46,35],
+      "xDesCaisses": [
+        192, 210, 192, 210, 192, 210, 192, 210, 192, 210, 192, 210, 192, 210, 192, 210,
+        192, 210, 192, 210, 192, 210, 192, 210, 192, 210, 192, 210, 192, 210, 192, 210,
+        192, 210, 192, 210, 192, 210, 192, 210
+      ],
+      "yDesCaisses": [
+        322, 322, 308, 308, 294, 294, 280, 280, 264, 264, 250, 250, 236, 236, 222, 222,
+        204, 204, 190, 190, 176, 176, 162, 162, 144, 144, 130, 130, 116, 116, 102, 102,
+        84, 84, 70, 70, 56, 56, 42, 42
+      ]
+    },
+    {
+      "xDuStock": 522,
+      "yDuStock": 82,
+      "imageDeLaCaisse": 11,
+      "imageDuCamion": 17,
+      "imageDeLaCaisseLivree": 5,
+      "x0": 514,
+      "y0": 54,
+      "x1": 552,
+      "y1": 94,
+      "xDuCamion": 236,
+      "yDuCamion": 370,
+      "u16_16": 236,
+      "xDeLaCorde": 236,
+      "yDeDepart": 32,
+      "yDArrivee": 370,
+      "teinte": [37,60,35],
+      "xDesCaisses": [
+        234, 252, 234, 252, 234, 252, 234, 252, 234, 252, 234, 252, 234, 252, 234, 252,
+        234, 252, 234, 252, 234, 252, 234, 252, 234, 252, 234, 252, 234, 252, 234, 252,
+        234, 252, 234, 252, 234, 252, 234, 252
+      ],
+      "yDesCaisses": [
+        322, 322, 308, 308, 294, 294, 280, 280, 264, 264, 250, 250, 236, 236, 222, 222,
+        204, 204, 190, 190, 176, 176, 162, 162, 144, 144, 130, 130, 116, 116, 102, 102,
+        84, 84, 70, 70, 56, 56, 42, 42
+      ]
+    },
+    {
+      "xDuStock": 562,
+      "yDuStock": 82,
+      "imageDeLaCaisse": 12,
+      "imageDuCamion": 18,
+      "imageDeLaCaisseLivree": 6,
+      "x0": 554,
+      "y0": 54,
+      "x1": 594,
+      "y1": 94,
+      "xDuCamion": 294,
+      "yDuCamion": 370,
+      "u16_16": 294,
+      "xDeLaCorde": 294,
+      "yDeDepart": 32,
+      "yDArrivee": 370,
+      "teinte": [58,33,33],
+      "xDesCaisses": [
+        276, 294, 276, 294, 276, 294, 276, 294, 276, 294, 276, 294, 276, 294, 276, 294,
+        276, 294, 276, 294, 276, 294, 276, 294, 276, 294, 276, 294, 276, 294, 276, 294,
+        276, 294, 276, 294, 276, 294, 276, 294
+      ],
+      "yDesCaisses": [
+        322, 322, 308, 308, 294, 294, 280, 280, 264, 264, 250, 250, 236, 236, 222, 222,
+        204, 204, 190, 190, 176, 176, 162, 162, 144, 144, 130, 130, 116, 116, 102, 102,
+        84, 84, 70, 70, 56, 56, 42, 42
+      ]
+    },
+    {
+      "xDuStock": 0,
+      "yDuStock": 0,
+      "imageDeLaCaisse": 0,
+      "imageDuCamion": 0,
+      "imageDeLaCaisseLivree": 0,
+      "x0": 596,
+      "y0": 54,
+      "x1": 636,
+      "y1": 94,
+      "xDuCamion": 0,
+      "yDuCamion": 0,
+      "u16_16": 0,
+      "xDeLaCorde": 0,
+      "yDeDepart": 0,
+      "yDArrivee": 0,
+      "teinte": [51,51,51],
+      "xDesCaisses": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "yDesCaisses": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    }
+  ],
+  "BARRES": [
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":1},
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":2},
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":3},
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":4},
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":5},
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":6},
+    {"imageDeGauche":0,"imageDuMilieu":1,"imageDeDroite":2,"milieux":7},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":1},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":2},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":3},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":4},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":5},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":6},
+    {"imageDeGauche":3,"imageDuMilieu":4,"imageDeDroite":5,"milieux":7},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":1},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":2},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":3},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":4},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":5},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":6},
+    {"imageDeGauche":6,"imageDuMilieu":7,"imageDeDroite":8,"milieux":7}
+  ],
+  "PLACES": [
+    {"x":130,"y":218},
+    {"x":204,"y":218},
+    {"x":272,"y":218},
+    {"x":416,"y":218},
+    {"x":498,"y":218},
+    {"x":572,"y":218},
+    {"x":96,"y":224},
+    {"x":168,"y":224},
+    {"x":248,"y":224},
+    {"x":406,"y":224},
+    {"x":486,"y":224},
+    {"x":568,"y":224},
+    {"x":70,"y":232},
+    {"x":148,"y":232},
+    {"x":230,"y":232},
+    {"x":402,"y":232},
+    {"x":480,"y":232},
+    {"x":558,"y":232},
+    {"x":30,"y":248},
+    {"x":112,"y":248},
+    {"x":194,"y":248},
+    {"x":378,"y":248},
+    {"x":474,"y":248},
+    {"x":564,"y":248}
+  ],
+  "POSES": 2,
+  "table_BEB87": 512,
+  "table_BEB89": [
+    142, 0, 3, 36354, 0, 1024, 512, 142, 0, 5, 36354, 0, 1536, 512, 142, 0,
+    5, 36354, 0, 1024, 512, 142, 0, 3, 36354, 0, 512, 512, 142, 0, 60423, 27137,
+    0, 2048, 492, 106, 0, 60425, 27137, 0, 2560, 492, 106, 0, 60427, 27137, 0, 3072,
+    520, 142, 0, 2061, 36354, 0, 3584, 520, 142, 0, 2063, 36354, 0, 4096, 520, 142,
+    0
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr" data-fil="page">
+<head>
+<meta charset="utf-8">
+<!-- La page locale : le moteur tourne dans le fil de la page, par tranches, comme dans le fichier
+     unique (moteur/web/moteur-du-jeu.js, environnement.js). Il faut le moteur réentrant
+     (node moteur/node/reentrer.mjs), que le serveur local sert sous /reentrant/ : ouvrir
+     http://localhost:8123/local, qui mène à /reentrant/moteur/web/local.html. -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theme Park</title>
+<style>
+  :root { --fond: #101214; --texte: #c9ccd1; --discret: #7b8088; }
+  html, body { margin: 0; height: 100%; background: var(--fond); color: var(--texte);
+    font: 13px/1.4 system-ui, sans-serif; }
+  body { display: flex; flex-direction: column; }
+  main { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 0; position: relative; }
+  video.film { position: absolute; object-fit: fill; background: #000; cursor: none; }
+  /* L'invite d'un film que le navigateur refuse de jouer avec le son avant un geste (films.js) */
+  div.invite-film { position: absolute; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; gap: 4px; background: rgba(16, 18, 20, .55); color: var(--texte);
+    font-size: 20px; cursor: pointer; user-select: none; }
+  div.invite-film small { color: var(--discret); font-size: 13px; }
+  main:fullscreen { background: #000; }
+  canvas { image-rendering: pixelated; background: #000; cursor: none; outline: none;
+    box-shadow: 0 0 0 1px #2a2e33; }
+  /* Le bandeau du haut : plein écran, rendu, langue, débogage ; tout le reste est dans l'onglet
+     « Réglages » de la fenêtre de débogage (debogage.js). #etat n'y montre que ce que le joueur doit
+     voir : une erreur, la fin du programme (principal.js, avertir). */
+  #bandeau { display: flex; align-items: center; gap: 6px; padding: 3px 8px; color: var(--discret); }
+  #bandeau button { font: inherit; font-size: 12px; color: var(--discret); background: none;
+    border: 1px solid #2a2e33; border-radius: 3px; padding: 0 8px; cursor: pointer; white-space: nowrap; }
+  #bandeau button:hover { color: var(--texte); }
+  #bandeau button[aria-pressed="true"] { color: var(--texte); border-color: #4a5058; background: #1f2327; }
+  #etat { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #d9a441; }
+</style>
+<link rel="stylesheet" href="debogage.css">
+</head>
+<body>
+<header id="bandeau">
+  <span id="etat" role="status"></span>
+  <button id="pleinecran" type="button" title="Plein écran ; maintenir Échap pour en sortir">plein écran</button>
+  <button id="rendu" type="button" title="Rendu de l'image agrandie : pixels nets, lissé (Scale2x), lissé anticrénelé (Scale2x puis xBR), anticrénelé (xBR, les bords obliques adoucis), xBRZ (net et sans pixels visibles) ou brut">rendu : pixels nets</button>
+  <button id="langue" type="button" title="Langue du jeu (relance la partie en cours : sauvegardez d'abord)">langue : français</button>
+  <button id="debogage-bouton" type="button" aria-pressed="false" title="La fenêtre de débogage : les réglages de la page, et l'état du jeu lu en direct dans sa mémoire (touche ²)">débogage</button>
+</header>
+<main><canvas id="ecran" width="320" height="200" tabindex="0"></canvas></main>
+<!-- Les réglages de la page, tous allumés par défaut : debogage.js les montre dans l'onglet
+     « Réglages » de la fenêtre de débogage ; un choix fait là est gardé dans ce navigateur
+     (principal.js). -->
+<div id="reglages-de-la-page" class="reglages" hidden>
+  <div class="commande"><span>Son</span>
+  <button id="son" type="button" title="Couper ou rétablir le son">son : au premier clic</button>
+  <button id="remplacements" type="button" title="Jouer les sons que le manifeste sons/index.json met à la place des originaux (un fichier posé à côté de l'original, du même nom : sons/LISEZMOI.txt) ; non : les sons d'origine, sauf ceux qu'on a écrasés. Relance la partie en cours : sauvegardez d'abord">sons remplacés : oui</button></div>
+  <div class="commande"><span>Image</span>
+  <button id="hr" type="button" title="Passer d'office le parc en 640x480, comme la touche R du jeu">640x480 : oui</button>
+  <button id="grandevue" type="button" title="Dans le parc en 640x480, une image plus grande, au format de la fenêtre, qui montre plus de cases ; un écart assumé : la partie peut différer de l'original">grande vue : oui</button>
+  <button id="animations" type="button" title="Les attractions tournent deux fois plus vite, par les dessins du jeu, passagers compris, avec une traînée semi-transparente faite des images interpolées (RIFE, Interprite : assets/animations/import/) ; le jeu n'en est pas changé, seule l'image montrée l'est">animations : ×2 + traînée</button></div>
+  <div class="commande"><span>Défilement</span>
+  <button id="defilement" type="button" title="En 640x480, faire défiler la vue au rythme du 320x200 plutôt qu'à celui du jeu d'origine">défilement : doux</button>
+  <button id="fluide" type="button" title="Faire glisser la vue au pixel d'une case à la suivante ; le jeu n'en est pas changé, seule l'image montrée l'est">fluide : oui</button></div>
+  <div class="commande"><span>Souris</span>
+  <button id="capture" type="button" title="Capturer la souris dans le jeu au premier clic ; Échap la libère">souris : capturée</button></div>
+  <div class="commande"><span>Corrections</span>
+  <button id="corrections" type="button" aria-pressed="true" title="Allumé (par défaut), des défauts du jeu de 1994 sont corrigés : le personnel formé qui tourne en rond, les passagers éjectés de montagnes russes à peine usées, les visiteurs qui ne trouvent pas la sortie quand l'eau leur barre la route, les trains qui repartent pour des tours en trop quand un looping précède la gare, les files oubliées pendant la pause du premier, le labyrinthe qui reste arrêté quand on ne le regarde plus, le pont changé en route en T vers l'herbe quand on efface la rivière à côté ; un écart assumé : la partie diffère de l'original. Éteint : le jeu de 1994 tel quel, défauts compris">original bug fix</button>
+  <small id="corrections-etat"></small></div>
+  <div class="commande"><span>Parties</span>
+  <button id="exporter" type="button" title="Télécharger les parties sauvegardées, qui ne vivent que dans ce navigateur et pour cette adresse : un fichier sauvegardes-themepark.json, à garder ou à importer ailleurs">parties : exporter</button>
+  <button id="importer" type="button" title="Reprendre des parties exportées (un fichier .json) : celles qui portent le même nom sont remplacées, les autres restent ; relance la partie en cours : sauvegardez d'abord">parties : importer</button>
+  <input id="fichier-des-parties" type="file" accept=".json,application/json" hidden></div>
+  <p class="journal" id="journal-de-la-page">demarrage...</p>
+  <p class="aide" id="cadence"></p>
+  <p class="aide" id="indice"></p>
+</div>
+<script type="module" src="principal.js"></script>
+</body>
+</html>

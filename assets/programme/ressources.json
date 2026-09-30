@@ -1,0 +1,156 @@
+{
+  "RESSOURCES_DES_IMAGES": [
+    {"nom":"data/mspr-0.inf","pointeur":"0xD3B0C","fin":"0x0","taille":0,"drapeaux":0,"origine":2},
+    {"nom":"data/mspr-0.dat","pointeur":"0xD3BA8","fin":"0x0","taille":0,"drapeaux":0,"origine":1},
+    {
+      "nom": "data/mspr-0.tab",
+      "pointeur": "0xD3BB8",
+      "fin": "0xD3B88",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 1
+    },
+    {
+      "nom": "data/mfra-0.ani",
+      "pointeur": "0xD3B80",
+      "fin": "0xD3B50",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 2
+    },
+    {"nom":"data/msta-0.ani","pointeur":"0xD3B38","fin":"0x0","taille":0,"drapeaux":0,"origine":2},
+    {
+      "nom": "data/mele-0.ani",
+      "pointeur": "0xD3B7C",
+      "fin": "0xD3B74",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 2
+    },
+    {"nom":"data/mblk-0.dat","pointeur":"0xD3BA0","fin":"0x0","taille":0,"drapeaux":0,"origine":1},
+    {
+      "nom": "data/mblk-0.tab",
+      "pointeur": "0xD3B90",
+      "fin": "0xD3B34",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 1
+    },
+    {"nom":"data/mpalette.dat","pointeur":"0xD3B8C","fin":"0x0","taille":0,"drapeaux":0,"origine":1},
+    {"nom":"data/mpointer.dat","pointeur":"0xD3BA4","fin":"0x0","taille":0,"drapeaux":0,"origine":2},
+    {
+      "nom": "data/mpointer.tab",
+      "pointeur": "0xD3B84",
+      "fin": "0xD3B9C",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 2
+    },
+    {"nom":"data/mfont-0.dat","pointeur":"0xD3B44","fin":"0x0","taille":0,"drapeaux":0,"origine":2},
+    {
+      "nom": "data/mfont-0.tab",
+      "pointeur": "0xD3B64",
+      "fin": "0xD3B70",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 2
+    },
+    {"nom":"data/mreq-0.dat","pointeur":"0xD3B40","fin":"0x0","taille":0,"drapeaux":0,"origine":2},
+    {
+      "nom": "data/mreq-0.tab",
+      "pointeur": "0xD3B54",
+      "fin": "0xD3B5C",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 2
+    },
+    {"nom":"","pointeur":"0x0","fin":"0x0","taille":0,"drapeaux":0,"origine":0}
+  ],
+  "RESSOURCES_DES_TEXTES": [
+    {
+      "nom": "data/lang0-0.dat",
+      "pointeur": "0xD35A8",
+      "fin": "0xD35A4",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 2
+    },
+    {"nom":"","pointeur":"0x0","fin":"0x0","taille":0,"drapeaux":0,"origine":0}
+  ],
+  "RESSOURCES_DE_L_ECRAN": [
+    {"nom":"*WB_SCREEN","pointeur":"0xDE5BC","fin":"0x0","taille":614400,"drapeaux":0,"origine":0},
+    {"nom":"*VESA","pointeur":"0xDE5F8","fin":"0x0","taille":256,"drapeaux":1,"origine":0},
+    {"nom":"","pointeur":"0x0","fin":"0x0","taille":0,"drapeaux":0,"origine":0}
+  ],
+  "RESSOURCES_DU_PARC": [
+    {"nom":"*GLASS","pointeur":"0xBA2F8","fin":"0x0","taille":10000,"drapeaux":0,"origine":0},
+    {"nom":"*MAP","pointeur":"0xD3B08","fin":"0xD3B04","taille":16384,"drapeaux":0,"origine":0},
+    {"nom":"*COMPUTER","pointeur":"0xD3B00","fin":"0xD3820","taille":13650,"drapeaux":0,"origine":0},
+    {"nom":"","pointeur":"0x0","fin":"0x0","taille":0,"drapeaux":0,"origine":0}
+  ],
+  "RESSOURCES_DES_OBJETS": [
+    {"nom":"*THING","pointeur":"0xD3B10","fin":"0xD3B78","taille":240000,"drapeaux":0,"origine":0},
+    {"nom":"","pointeur":"0x0","fin":"0x0","taille":0,"drapeaux":0,"origine":0}
+  ],
+  "RESSOURCES_DU_PANNEAU": [
+    {"nom":"data/mpanel-0.dat","pointeur":"0xD3B4C","fin":"0x0","taille":0,"drapeaux":0,"origine":1},
+    {
+      "nom": "data/mpanel-0.tab",
+      "pointeur": "0xD3B68",
+      "fin": "0xD3B6C",
+      "taille": 0,
+      "drapeaux": 0,
+      "origine": 1
+    },
+    {"nom":"","pointeur":"0x0","fin":"0x0","taille":0,"drapeaux":0,"origine":0}
+  ],
+  "NOMS_DE_FICHIERS": [
+    {"nom":"data/mpalette.dat","origine":1},
+    {"nom":"data/wingame.dat","origine":2},
+    {"nom":"data/mmenu-1.dat","origine":1},
+    {"nom":"intro.exe","origine":2},
+    {"nom":"data/mmenu-0.dat","origine":1},
+    {"nom":"data/mglobe-0.dat","origine":2},
+    {"nom":"data/mglpal-0.dat","origine":2},
+    {"nom":"data/mplay-0.dat","origine":2},
+    {"nom":"data/mplay-0.tab","origine":2},
+    {"nom":"data/mawpal-0.dat","origine":1},
+    {"nom":"data/mawar0-0.dat","origine":1},
+    {"nom":"data/mawar1-0.dat","origine":1},
+    {"nom":"data/mcup-0.dat","origine":1},
+    {"nom":"data/mcup-0.tab","origine":1},
+    {"nom":"data/mstate-0.dat","origine":1},
+    {"nom":"data/mstap-0.dat","origine":1},
+    {"nom":"data/mstock-0.dat","origine":1},
+    {"nom":"data/mstpal-0.dat","origine":1},
+    {"nom":"data/mstspr-0.dat","origine":1},
+    {"nom":"data/mstspr-0.tab","origine":1},
+    {"nom":"data/mauct-0.dat","origine":2},
+    {"nom":"data/mauspr-0.dat","origine":2},
+    {"nom":"data/mauspr-0.tab","origine":2},
+    {"nom":"data/mres-0.dat","origine":1},
+    {"nom":"data/mrspal-0.dat","origine":1},
+    {"nom":"data/mrsspr-0.dat","origine":1},
+    {"nom":"data/mrsspr-0.tab","origine":1},
+    {"nom":"data/mneg-0.dat","origine":1},
+    {"nom":"data/mngpal-0.dat","origine":1},
+    {"nom":"data/mhand-0.dat","origine":1},
+    {"nom":"data/mhand-0.tab","origine":1},
+    {"nom":"data/mshare-0.dat","origine":1},
+    {"nom":"data/rideani.","origine":2},
+    {"nom":"data/intro.dat","origine":2},
+    {"nom":"save/demo.gy","origine":2},
+    {"nom":"data/mmap-0.dat","origine":1},
+    {"nom":"data/busted.dat","origine":2},
+    {"nom":"data/buspal.dat","origine":2},
+    {"nom":"data/busted.anm","origine":2},
+    {"nom":"data/takover.dat","origine":2},
+    {"nom":"data/takpal.dat","origine":2},
+    {"nom":"data/takover.anm","origine":2},
+    {"nom":"data/music","origine":2},
+    {"nom":"data/snds","origine":2},
+    {"nom":"data\\\\inst.bnk","origine":2},
+    {"nom":"data\\\\drum.bnk","origine":2},
+    {"nom":"","origine":2}
+  ]
+}

@@ -1,0 +1,11 @@
+# Fins de ligne : LF partout, quel que soit le systeme.
+* text=auto eol=lf
+
+# Les scripts de cmd.exe veulent des fins de ligne Windows.
+*.bat text eol=crlf
+
+# Le CD d'origine et ce qui en est tiré, octet pour octet : ni fins de ligne converties, ni
+# différences en texte (des fichiers de données du jeu passeraient pour du texte, et SETUP.BAT,
+# THEME.BAT du CD seraient réécrits).
+/jeu/** binary
+/assets/** binary

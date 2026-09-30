@@ -1,0 +1,53 @@
+# Le dépôt garde le résultat : le jeu autonome dans le navigateur, ses assets (les données du jeu,
+# tirées du CD en formats d'aujourd'hui : assets/, moteur/hote/assets-du-jeu.js), et toute la
+# documentation. Theme Park est un abandonware ; le dépôt reste privé.
+
+# Le CD déroulé (jeu/), d'où les assets sont extraits (moteur/node/extraire-jeu.mjs) : sur la machine
+# de développement, hors du dépôt, comme l'image ISO.
+/jeu/
+
+# L'atelier, sur la machine de développement, hors du dépôt : les outils de la décompilation, les
+# vérificateurs, leurs scénarios et leurs bancs d'essai, la chaîne des animations intercalées et ses
+# fichiers de travail. La documentation en parle ; un clone ne les a pas. (moteur/node/partie.mjs,
+# animations-fichiers.mjs et sprites-fichiers.mjs restent : le serveur, la construction du site et
+# l'extraction les importent.)
+/outils/
+/moteur/scenarios/
+/moteur/node/animations.mjs
+/moteur/node/animations-lisezmoi.txt
+/moteur/node/comparer.mjs
+/moteur/node/composer.mjs
+/moteur/node/couverture.mjs
+/moteur/node/eprouver.mjs
+/moteur/node/eprouver-fins.mjs
+/moteur/node/exporter-animations.mjs
+/moteur/node/importer-animations.mjs
+/moteur/node/interpoler-animations.mjs
+/moteur/node/lancer.mjs
+/moteur/node/musiques.mjs
+/moteur/node/png.mjs
+/moteur/node/remplacements.mjs
+/moteur/node/rife-interpoler.py
+/moteur/node/verifier.mjs
+/moteur/node/verifier-intro.mjs
+/moteur/node/verifier-tout.mjs
+/moteur/node/voir-animations.mjs
+/assets/animations/Flowframes/
+/assets/animations/interprite/
+/assets/animations/origine/
+/assets/animations/rife/
+/assets/animations/import/index.json
+/assets/animations/import/images/
+# L'ancien paquet des données (assets/jeu), remplacé par les assets
+/assets/jeu/
+# La distribution (moteur/node/construire-distribution.mjs) : elle se reconstruit.
+/site/
+
+# Divers
+__pycache__/
+*.pyc
+*.exe
+
+# Travaux dérivés locaux, à la racine (avec la barre initiale : moteur/.../travail n'est pas visé)
+/travail/
+/moteur/node/mesurer-reentrant.mjs

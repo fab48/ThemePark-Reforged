@@ -1,0 +1,44 @@
+/* La fenêtre de débogage (debogage.js) : un panneau à droite ; ouverte, l'image du jeu lui laisse la place. */
+:root { --largeur-debogage: min(480px, 100vw); }
+body.debogage { padding-right: var(--largeur-debogage); }
+#debogage { display: none; position: fixed; top: 0; right: 0; bottom: 0; width: var(--largeur-debogage);
+  box-sizing: border-box; flex-direction: column; background: #15181b; border-left: 1px solid #22262a;
+  font-size: 12px; z-index: 10; }
+body.debogage #debogage { display: flex; }
+#debogage header { display: flex; align-items: baseline; gap: 10px; padding: 6px 10px; border-bottom: 1px solid #22262a; }
+#debogage header span { flex: 1; color: var(--discret); }
+#debogage button { font: inherit; color: var(--discret); background: none; border: 1px solid #2a2e33;
+  border-radius: 3px; padding: 0 8px; cursor: pointer; }
+#debogage button:hover { color: var(--texte); }
+#debogage .onglets { display: flex; flex-wrap: wrap; gap: 4px; padding: 6px 10px; }
+#debogage .onglets button.choisi { color: var(--texte); border-color: #4a5058; background: #1f2327; }
+#debogage .etat { padding: 0 10px 4px; color: var(--discret); }
+#debogage .corps { flex: 1; overflow: auto; padding: 0 10px 12px; }
+/* l'onglet « Réglages » : les boutons des réglages de la page (index.html, principal.js) */
+#debogage .reglages { flex: 1; overflow: auto; padding: 0 10px 12px; }
+#debogage button[aria-pressed="true"] { color: var(--texte); border-color: #4a5058; background: #1f2327; }
+#debogage .commande small { color: var(--discret); }
+#debogage details { margin-top: 8px; }
+#debogage summary { cursor: pointer; color: var(--texte); font-weight: 600; }
+#debogage dl { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 2px 12px; margin: 4px 0 0; }
+#debogage dt { color: var(--discret); cursor: help; }
+#debogage dd { margin: 0; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+#debogage table { border-collapse: collapse; width: 100%; margin-top: 4px; font-variant-numeric: tabular-nums; }
+#debogage th { text-align: left; font-weight: 400; color: var(--discret); cursor: help; border-bottom: 1px solid #2a2e33; }
+#debogage th, #debogage td { padding: 1px 4px; white-space: nowrap; }
+#debogage tbody tr:nth-child(odd) { background: #181b1e; }
+#debogage tr.cliquable { cursor: pointer; }
+#debogage tr.cliquable:hover { background: #242a30; }
+#debogage details:has(table) { overflow-x: auto; }
+#debogage pre { font: 11px/1.35 ui-monospace, Consolas, monospace; color: var(--texte); margin: 4px 0; }
+#debogage p { margin: 6px 0; }
+#debogage .renvoi { color: var(--discret); font-size: 11px; }
+#debogage .avertissement { color: #d9a441; }
+#debogage .commande { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 6px 0; }
+#debogage .commande span { width: 88px; color: var(--discret); }
+#debogage .journal { color: var(--texte); min-height: 1.4em; }
+#debogage .selecteur { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+#debogage input { width: 72px; font: inherit; color: var(--texte); background: #101214; border: 1px solid #2a2e33; border-radius: 3px; }
+#debogage .aide { color: var(--discret); }
+#debogage .option { display: flex; align-items: center; gap: 6px; color: var(--discret); cursor: pointer; }
+#debogage .option input { width: auto; margin: 0; }

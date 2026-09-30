@@ -1,0 +1,32 @@
+{
+  "ETAT_DU_JEU": 1,
+  "PAGES_GAUCHE": 0,
+  "PAGES_DROITE": 0,
+  "table_B7A5B": [6,6,8,6,7],
+  "table_B7A60": [
+    618, 64, -1, 0, -1, -1, -1, -2, -1, 1, -1, 2, 1285, 1289, 27402, 258,
+    0, -256, -1, -1, -257, -1, 511, -256, 767, -256, 1791, 2054, 1798, 620, 64, 1,
+    0, 1, -1, 1, -2, 1, 1, 1, 2, 1285, 1289, 27914, 24834, 28526, 26740, 29285,
+    49
+  ],
+  "table_B7AC2": [-1,2,1,0,3,4,-1,2,1,0,3,4,2,1,0,3,4,-1,2,1,0,3,4,-1],
+  "BOUTONS_D_ECHELLE": 1,
+  "table_BA0B1": 22,
+  "variable_BA0B2": 0,
+  "inconnu_BA0B3": [23],
+  "variable_BA0B4": 0,
+  "inconnu_BA0B5": [24],
+  "BOUTONS_DE_COURBE": 1,
+  "table_BA0B7": [11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19],
+  "COURBES": [
+    {"sens":0,"allumee":1,"couleur":3,"nom":0},
+    {"sens":0,"allumee":0,"couleur":4,"nom":1},
+    {"sens":0,"allumee":0,"couleur":2,"nom":2},
+    {"sens":0,"allumee":0,"couleur":5,"nom":3},
+    {"sens":0,"allumee":0,"couleur":6,"nom":4},
+    {"sens":0,"allumee":0,"couleur":7,"nom":5},
+    {"sens":0,"allumee":0,"couleur":8,"nom":6},
+    {"sens":0,"allumee":0,"couleur":1,"nom":7},
+    {"sens":1,"allumee":0,"couleur":10,"nom":8}
+  ]
+}

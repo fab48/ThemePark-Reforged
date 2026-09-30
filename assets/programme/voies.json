@@ -1,0 +1,461 @@
+{
+  "ELEMENTS_DE_VOIE_1": [
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,0,0,0],
+      "acceleration": [0,0,0,0],
+      "sorties": 0,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [170,0,171,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 3,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [168,0,169,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 6,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [170,0,171,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 12,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [168,0,169,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 9,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [158,0,367,0],
+      "acceleration": [0,0,0,0],
+      "sorties": 5,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,163,0,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [163,163,372,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 8,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [163,163,372,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 2,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [158,158,367,367],
+      "acceleration": [0,0,0,0],
+      "sorties": 4,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [158,158,367,367],
+      "acceleration": [0,0,0,0],
+      "sorties": 1,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,164,0,376],
+      "acceleration": [0,-1,0,2],
+      "sorties": 10,
+      "decalages": [16,0,0],
+      "bruitages": [0,17,0,18]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [162,0,368,0],
+      "acceleration": [2,0,-1,0],
+      "sorties": 5,
+      "decalages": [0,16,0],
+      "bruitages": [18,0,17,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,167,0,373],
+      "acceleration": [0,2,0,-1],
+      "sorties": 10,
+      "decalages": [-16,0,-32],
+      "bruitages": [0,18,0,17]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [159,0,371,0],
+      "acceleration": [-1,0,2,0],
+      "sorties": 5,
+      "decalages": [0,-16,-32],
+      "bruitages": [17,0,18,0]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [161,0,369,0],
+      "acceleration": [2,0,-2,0],
+      "sorties": 10,
+      "decalages": [0,32,16],
+      "bruitages": [18,0,17,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,165,0,375],
+      "acceleration": [0,-2,0,4],
+      "sorties": 5,
+      "decalages": [32,0,16],
+      "bruitages": [0,17,0,18]
+    },
+    {
+      "u8_0": [174,0,175,0,0],
+      "figures": [160,0,370,0],
+      "acceleration": [-2,0,4,0],
+      "sorties": 5,
+      "decalages": [0,-32,-48],
+      "bruitages": [17,0,18,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,166,0,374],
+      "acceleration": [0,4,0,-2],
+      "sorties": 10,
+      "decalages": [-32,0,-48],
+      "bruitages": [0,18,0,17]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,163,0,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [51,1,135,0,0],
+      "figures": [0,163,0,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    }
+  ],
+  "ELEMENTS_DE_VOIE_2": [
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [0,0,0,0],
+      "acceleration": [0,0,0,0],
+      "sorties": 0,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 3,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 6,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 12,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,163,367,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 9,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,0,367,0],
+      "acceleration": [0,0,0,0],
+      "sorties": 5,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [0,163,0,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [163,163,372,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 8,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [163,163,372,372],
+      "acceleration": [0,0,0,0],
+      "sorties": 2,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,158,367,367],
+      "acceleration": [0,0,0,0],
+      "sorties": 4,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,158,367,367],
+      "acceleration": [0,0,0,0],
+      "sorties": 1,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [0,164,0,376],
+      "acceleration": [0,-1,0,3],
+      "sorties": 10,
+      "decalages": [24,0,0],
+      "bruitages": [0,17,0,18]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [162,0,368,0],
+      "acceleration": [3,0,-1,0],
+      "sorties": 5,
+      "decalages": [0,24,0],
+      "bruitages": [18,0,17,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [0,167,0,373],
+      "acceleration": [0,3,0,-1],
+      "sorties": 10,
+      "decalages": [-24,0,-32],
+      "bruitages": [0,18,0,17]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [159,0,371,0],
+      "acceleration": [-1,0,3,0],
+      "sorties": 5,
+      "decalages": [0,-24,-32],
+      "bruitages": [17,0,18,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [161,0,369,0],
+      "acceleration": [5,0,-2,0],
+      "sorties": 5,
+      "decalages": [0,48,16],
+      "bruitages": [18,0,17,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [0,165,0,375],
+      "acceleration": [0,-2,0,5],
+      "sorties": 10,
+      "decalages": [48,0,16],
+      "bruitages": [0,17,0,18]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [160,0,370,0],
+      "acceleration": [-2,0,5,0],
+      "sorties": 5,
+      "decalages": [0,-48,-48],
+      "bruitages": [17,0,18,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [0,166,0,374],
+      "acceleration": [0,5,0,-2],
+      "sorties": 10,
+      "decalages": [-48,0,-48],
+      "bruitages": [0,18,0,17]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,158,158,158],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,158,158,158],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,158,158,158],
+      "acceleration": [0,0,0,0],
+      "sorties": 5,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [45,1,155,0,0],
+      "figures": [158,158,158,158],
+      "acceleration": [0,0,0,0],
+      "sorties": 5,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    }
+  ],
+  "ELEMENTS_DE_VOIE_3": [
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [0,0,0,0],
+      "acceleration": [0,0,0,0],
+      "sorties": 0,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,481,482,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 3,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,481,482,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 6,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,481,482,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 12,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,481,482,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 9,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,0,482,0],
+      "acceleration": [0,0,0,0],
+      "sorties": 5,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [0,481,0,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 10,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [481,481,483,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 8,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [481,481,483,483],
+      "acceleration": [0,0,0,0],
+      "sorties": 2,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,480,482,482],
+      "acceleration": [0,0,0,0],
+      "sorties": 4,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    },
+    {
+      "u8_0": [213,1,155,0,0],
+      "figures": [480,480,482,482],
+      "acceleration": [0,0,0,0],
+      "sorties": 1,
+      "decalages": [0,0,-16],
+      "bruitages": [0,0,0,0]
+    }
+  ],
+  "GENRES_DE_VOIE": [
+    {"premiereFigure":139,"elements":"0x0","u16_6":67,"u16_8":110},
+    {"premiereFigure":116,"elements":"0xB3E34","u16_6":66,"u16_8":100},
+    {"premiereFigure":136,"elements":"0xB4041","u16_6":66,"u16_8":100},
+    {"premiereFigure":469,"elements":"0xB4280","u16_6":65535,"u16_8":0}
+  ],
+  "DIRECTIONS_DE_DEPART": 0,
+  "table_B7AEB": [0,4,8,8,1,1,2,2,4,1,4,2,8,8,0,2,0,4,0,1,0,2,8,1,4,2,8,1,4,2,8,1,4,1,4,2,8,2,8,2,8,1,4,1,4],
+  "SORTIES_DES_FORMES_B7B21": [0,3,6,12,9,5,10,8,2,4,1,10,5,10,5,10,5,5,10,10,10,5,5],
+  "PENTES_NORD_SUD": [5,14,17,16,11],
+  "PENTES_EST_OUEST": [6,13,18],
+  "OPPOSEE": [0,4,8,0,1,0,0,0,2],
+  "codeDeTriche": [72,158,72,208,16,0,0,0]
+}

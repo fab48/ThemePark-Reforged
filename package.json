@@ -1,0 +1,12 @@
+{
+  "name": "theme-park-moderne",
+  "private": true,
+  "type": "module",
+  "description": "Theme Park (Bullfrog, 1994) : le jeu dans le navigateur, sur la reecriture lisible du moteur d'origine, avec ses donnees extraites du CD en formats d'aujourd'hui",
+  "scripts": {
+    "jeu": "node moteur/node/serveur.mjs",
+    "distribution": "node moteur/node/construire-distribution.mjs",
+    "assets": "node moteur/node/extraire-jeu.mjs",
+    "films": "node moteur/node/extraire-films.mjs"
+  }
+}

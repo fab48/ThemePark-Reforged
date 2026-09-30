@@ -1,0 +1,45 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "theme-park",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "moteur/node/serveur.mjs",
+        "8123"
+      ],
+      "port": 8123
+    },
+    {
+      "name": "theme-park-essai",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "moteur/node/serveur.mjs",
+        "8125",
+        "travail/verif/installation-essai"
+      ],
+      "port": 8125
+    },
+    {
+      "name": "theme-park-son",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "moteur/node/serveur.mjs",
+        "8124"
+      ],
+      "port": 8124
+    },
+    {
+      "name": "theme-park-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8126",
+        "--directory",
+        "site"
+      ],
+      "port": 8126
+    }
+  ]
+}

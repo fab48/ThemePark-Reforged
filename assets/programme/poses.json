@@ -1,0 +1,10 @@
+{
+  "SENS_DU_DEFILEMENT": 0,
+  "SENS_DU_MASQUE": [-1,0,1,1,2,2,1,3,3],
+  "COTE_OPPOSE": [-1,4,8,-1,1,-1,-1,-1,2],
+  "SENS_DE_DEPART": [3,2,3,2],
+  "PARC_CHOISI": -1,
+  "BAS_DE_LA_VUE": 0,
+  "inconnu_B9403": [96,0,0,0],
+  "ECRAN_DE_RETOUR": 0
+}
